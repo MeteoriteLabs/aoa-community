@@ -1,8 +1,6 @@
-# 🖇️ Awesome AoA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🖇️ AoA Community [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome AoA plugins, tools, and resources. AoA is a Hybrid Workforce Operating System for solo founders and teams — built on Paperclip (open-source AI agent orchestration). Founder manages AI agents + humans from a single control room.
-
-[AoA](https://github.com/MeteoriteLabs/aoa) is a fork of [Paperclip](https://github.com/paperclipai/paperclip) — open-source orchestration for zero-human companies — rebranded and extended for hybrid workforces.
+> A curated list of AoA tools, plugins, and resources. AoA is a Hybrid Workforce Operating System for solo founders and teams. Founders manage AI agents and humans from a single control room.
 
 ---
 
@@ -18,47 +16,36 @@
 
 ## Official
 
-Official repositories and resources from the AoA / MeteoriteLabs team and the upstream Paperclip project.
+Official repositories and resources from the AoA / MeteoriteLabs team.
 
-- [AoA](https://github.com/MeteoriteLabs/aoa) - Hybrid Workforce Operating System for solo founders and teams, built on Paperclip.
-- [AoA Marketplace](https://github.com/MeteoriteLabs/aoa-marketplace-cdn) - Public CDN catalog mirror for AoA-curated plugins (live catalog at https://meteoritelabs.github.io/aoa-marketplace-cdn/catalog.json).
-- [Paperclip](https://github.com/paperclipai/paperclip) - The upstream open-source orchestration platform AoA is built on.
-- [Paperclip Website](https://github.com/paperclipai/paperclip-website) - The official Paperclip website source.
+- [AoA](https://github.com/MeteoriteLabs/aoa) — Hybrid Workforce Operating System for solo founders and teams.
+- [AoA Marketplace](https://github.com/MeteoriteLabs/aoa-marketplace-cdn) — Public CDN catalog of AoA-curated plugins, skills, agent templates, and team templates. Live catalog: https://meteoritelabs.github.io/aoa-marketplace-cdn/catalog.json.
+- [AoA Community](https://github.com/MeteoriteLabs/aoa-community) — This list. Curated community projects and learning resources.
 
 ## Plugins
 
-Extensions and integrations that add new capabilities to AoA (and to the upstream Paperclip platform).
+The canonical, always-current plugin catalog lives in the **AoA Marketplace**:
 
-> **Status:** AoA is a fork of Paperclip with SDK rebranding. Plugins listed below were built for Paperclip's SDK and may need adaptation to load in AoA. AoA team is actively adapting these — see [MeteoriteLabs/aoa-marketplace-cdn](https://github.com/MeteoriteLabs/aoa-marketplace-cdn) for AoA-curated plugins (live catalog at https://meteoritelabs.github.io/aoa-marketplace-cdn/catalog.json).
+- 🛒 **Live catalog** — https://meteoritelabs.github.io/aoa-marketplace-cdn/catalog.json
+- 📦 **Source repo** — [aoa-marketplace-cdn](https://github.com/MeteoriteLabs/aoa-marketplace-cdn)
 
-- [obsidian-paperclip](https://github.com/istib/obsidian-paperclip) - Obsidian plugin to browse, comment on, and assign Paperclip issues to AI agents.
-- [paperclip-aperture](https://github.com/tomismeta/paperclip-aperture) - Alternative Focus view for Paperclip that deterministically ranks approvals, issue activity, and other human-facing events into now, next, and ambient.
-- [paperclip-live-analytics-plugin](https://github.com/Agent-Analytics/paperclip-live-analytics-plugin) - Live visitor map, dashboard widget, and settings page for viewing Agent Analytics inside Paperclip.
-- [paperclip-plugin-acp](https://github.com/mvanhorn/paperclip-plugin-acp) - ACP runtime plugin that runs Claude Code, Codex, and Gemini CLI from any chat platform.
-- [paperclip-plugin-avp](https://github.com/creatorrmode-lead/paperclip-plugin-avp) — Trust and reputation layer via Agent Veil Protocol. DID identity, EigenTrust reputation, signed attestations. Adds trust gates before delegation and team reputation evaluation. [npm](https://www.npmjs.com/package/paperclip-plugin-avp)
-- [paperclip-plugin-chat](https://github.com/webprismdevin/paperclip-plugin-chat) - Interactive AI chat copilot for managing tasks, agents, and workspaces.
-- [paperclip-plugin-company-wizard](https://github.com/yesterday-ai/paperclip-plugin-company-wizard) - AI-powered company setup assistant with presets.
-- [paperclip-plugin-discord](https://github.com/mvanhorn/paperclip-plugin-discord) - Bidirectional Discord integration: notifications, slash commands, and community intelligence.
-- [paperclip-plugin-github-issues](https://github.com/mvanhorn/paperclip-plugin-github-issues) - Bidirectional GitHub Issues sync for Paperclip.
-- [paperclip-plugin-slack](https://github.com/mvanhorn/paperclip-plugin-slack) - Slack notifications plugin — posts to Slack when issues are created, completed, or need approval.
-- [paperclip-plugin-telegram](https://github.com/mvanhorn/paperclip-plugin-telegram) - Telegram notifications plugin — posts to Telegram when issues are created, completed, or need approval.
-- [paperclip-plugin-writbase](https://github.com/Writbase/paperclip-plugin-writbase) - Bidirectional sync between Paperclip issues and WritBase tasks with webhook-driven updates and periodic reconciliation.
-- [paperclip-plugin-hindsight](https://github.com/vectorize-io/hindsight/tree/main/hindsight-integrations/paperclip-plugin) - Persistent long-term memory for Paperclip agents — recall before every heartbeat, retain after every run. [npm](https://www.npmjs.com/package/paperclip-plugin-hindsight)
+The marketplace lists every AoA-compatible plugin with current install instructions and version metadata. Community-published plugins land there once they pass the AoA team's compatibility review.
+
+If you've built an AoA plugin and want it in the marketplace, see the marketplace repo's contribution guide. If your plugin is more experimental and you'd like it surfaced in this list (a softer signal than the marketplace), open a PR here per the [Contributing](#contributing) section below.
 
 ## Tools & Utilities
 
-Bots, bundles, and helper tools for the AoA / Paperclip ecosystem.
+Bots, bundles, and helper tools for the AoA ecosystem.
 
-- [oh-my-paperclip](https://github.com/gsxdsm/oh-my-paperclip) - The go-to bundle of Paperclip plugins.
-- [paperclip-discord-bot](https://github.com/rekon307/paperclip-discord-bot) - Discord bot for the Paperclip community — GitHub OAuth contributor roles and daily AI summaries.
-- [paperclip-mcp](https://github.com/wizarck/paperclip-mcp) - MCP server that exposes the Paperclip REST API as tools for Claude Code and Claude Desktop.
+> _This section is open. Add the first entry by submitting a PR — see [Contributing](#contributing) below._
 
 ## Resources
 
-Guides, books, and learning materials about AoA and the broader Paperclip ecosystem.
+Guides, books, and learning materials about AoA.
 
-- [Headcount Zero](https://github.com/AnthonyDavidAdams/zero-employee-company-book) - *Headcount Zero: How to Build an AI-Run Company with Paperclip* — an open-source book.
-- [Paperclip Troubleshooting Guide](https://github.com/paperclipai/paperclip/blob/main/docs/guides/troubleshooting.md) - Common issues, FAQs, and solutions for Paperclip (applies to AoA with minor differences).
+- [Headcount Zero](https://github.com/AnthonyDavidAdams/zero-employee-company-book) — *Headcount Zero: How to Build an AI-Run Company* — an open-source book on running AI-led companies, with applied workflows that map onto AoA's heartbeat + agent-team model.
+
+> _Have an AoA tutorial, blog post, or talk to share? Open a PR — see [Contributing](#contributing) below._
 
 ---
 
